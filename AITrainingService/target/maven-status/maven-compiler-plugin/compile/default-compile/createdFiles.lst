@@ -1,0 +1,12 @@
+com\datapredict\aitraining\model\TrainingRecord$TrainingRecordBuilder.class
+com\datapredict\aitraining\service\TrainingService.class
+com\datapredict\aitraining\controller\TrainingController.class
+com\datapredict\aitraining\model\TrainingResponse$TrainingResponseBuilder.class
+com\datapredict\aitraining\model\TrainingResult.class
+com\datapredict\aitraining\AiTrainingApplication.class
+com\datapredict\aitraining\model\AlgorithmRecommendation.class
+com\datapredict\aitraining\model\TrainingResponse.class
+com\datapredict\aitraining\model\TrainingResult$TrainingResultBuilder.class
+com\datapredict\aitraining\repository\TrainingRecordRepository.class
+com\datapredict\aitraining\model\TrainingRecord.class
+com\datapredict\aitraining\model\TrainingRequest.class

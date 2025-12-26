@@ -1,0 +1,12 @@
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\AuthApplication.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\repository\UserRepository.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\controller\AuthController.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\model\UserResponse.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\service\AuthService.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\util\JwtUtil.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\service\CustomUserDetailsService.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\model\AuthRequest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\model\BlackListedToken.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\repository\BlackListedTokenRepository.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\model\User.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\MicroService Auth\src\main\java\com\aipredict\auth\config\SecurityConfig.java

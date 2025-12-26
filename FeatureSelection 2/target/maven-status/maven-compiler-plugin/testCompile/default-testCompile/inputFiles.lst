@@ -1,0 +1,11 @@
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\filters\ANOVAFilterTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\model\FeatureScoreTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\service\FeatureSelectionServiceTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\filters\PearsonFilterTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\filters\FCBFFilterTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\filters\MutualInformationFilterTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\model\SelectionResultTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\controller\FeatureSelectionControllerTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\embedded\RandomForestImportanceTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\service\SpamDatasetTest.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\test\java\com\example\featureselection\service\StopWordsTest.java

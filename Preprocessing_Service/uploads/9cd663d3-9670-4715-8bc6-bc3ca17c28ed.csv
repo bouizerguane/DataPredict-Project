@@ -1,0 +1,5 @@
+id,text,value,category,tweet
+1,"Hello world",10.5,A,"Just setting up my twttr"
+2,"Testing NLP",20.0,B,"Another @user tweet #hashtag"
+3,"Data Science",15.5,A,"Machine learning is cool"
+4,"Missing Value",,B,""

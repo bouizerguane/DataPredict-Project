@@ -1,0 +1,90 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.web.server: DEBUG
+
+spring:
+  application:
+    name: api-gateway
+  
+  codec:
+    max-in-memory-size: 500MB
+
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        register: true
+        prefer-ip-address: true
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+    gateway:
+      httpclient:
+        connect-timeout: 10000
+        response-timeout: 600s
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+      routes:
+        - id: auth-service
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**
+        
+        - id: preprocessing-service
+          uri: lb://preprocessing-service
+          predicates:
+            - Path=/api/datasets/**
+        
+        - id: featureselection-service
+          uri: lb://featureselection-service
+          predicates:
+            - Path=/api/feature-selection/**
+        
+        - id: modelrecommendation-service
+          uri: lb://modelrecommendation-service
+          predicates:
+            - Path=/api/recommendation/**
+
+        - id: preprocessing-export
+          uri: lb://preprocessing-service
+          predicates:
+            - Path=/export/**
+            
+        - id: preprocessing-uploads
+          uri: lb://preprocessing-service
+          predicates:
+            - Path=/uploads/**
+
+        - id: aitraining-service
+          uri: lb://aitraining-service
+          predicates:
+            - Path=/api/training/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,14 @@
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\embedded\RandomForestImportance.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\wrappers\RFE.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\model\FeatureScore.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\util\SmileHelper.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\wrappers\SBS.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\wrappers\SFS.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\FeatureSelectionApplication.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\service\FeatureSelectionService.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\filters\FCBFFilter.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\controller\FeatureSelectionController.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\filters\PearsonFilter.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\filters\ANOVAFilter.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\model\SelectionResult.java
+D:\TPs Master\Projet programmation\Projet V1.1.1 test\FeatureSelection 2\src\main\java\com\example\featureselection\filters\MutualInformationFilter.java

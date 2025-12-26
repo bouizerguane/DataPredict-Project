@@ -1,0 +1,11 @@
+com\example\featureselection\filters\PearsonFilterTest.class
+com\example\featureselection\service\StopWordsTest.class
+com\example\featureselection\filters\ANOVAFilterTest.class
+com\example\featureselection\model\SelectionResultTest.class
+com\example\featureselection\controller\FeatureSelectionControllerTest.class
+com\example\featureselection\model\FeatureScoreTest.class
+com\example\featureselection\service\FeatureSelectionServiceTest.class
+com\example\featureselection\filters\FCBFFilterTest.class
+com\example\featureselection\service\SpamDatasetTest.class
+com\example\featureselection\filters\MutualInformationFilterTest.class
+com\example\featureselection\embedded\RandomForestImportanceTest.class
